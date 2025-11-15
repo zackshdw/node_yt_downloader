@@ -100,15 +100,11 @@ Credits:
 
 
 async function cmdInfo(opts) {
-    if (opts.help || opts['--help']) {
-        cmdHelp();
-        process.exit(0);
-    }
 
     const urlOrId = opts._?.[0] || opts;
     const videoId = extractVideoId(urlOrId);
     if (!videoId) {
-        console.error('Could Not Determine Video ID From:', urlOrId);
+        console.error('Please Insert A Valid YouTube Video URL Or Video ID As First Argument After "info".');
         process.exit(1);
     }
 
@@ -135,14 +131,10 @@ async function cmdInfo(opts) {
 }
 
 async function cmdDownload(opts) {
-    if (opts.help || opts['--help']) {
-        cmdHelp();
-        process.exit(0);
-    }
 
     const videoId = extractVideoId(opts._[0]);
     if (!videoId) {
-        console.error('Could Not Determine Video ID From URL Or Video ID. Provide As First Argument After "download".');
+        console.error('Could Not Determine Video URL Or Video ID. Provide As First Argument After "download".');
         process.exit(1);
     }
 
