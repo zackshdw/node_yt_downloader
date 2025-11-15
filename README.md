@@ -92,7 +92,7 @@ yt download n1PCW0C1aiM -q 720p
 yt download n1PCW0C1aiM -q 720p -o C:\Users\YourName\Videos
 ```
 
-<img width="1115" height="628" alt="Screenshot 2025-11-14 234517" src="https://github.com/user-attachments/assets/a96c3389-b22b-4e15-925a-885dcc4f0555" />
+<img width="1115" height="628" alt="Screenshot 2025-11-14 234517" src="https://github.com/user-attachments/assets/b097a6a9-4eed-41cb-b47d-eb0551d43c37" />
 <br /> <br />
 
 Uninstall Global Commands With:
